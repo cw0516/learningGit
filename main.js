@@ -7,7 +7,7 @@ const http = require('http');
 
 const port = 3000;
 
-http.createServer(request, response) => { 
+http.createServer((request, response) => { 
 
 	console.log('요청 수신.');
 
